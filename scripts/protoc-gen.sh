@@ -1,0 +1,1 @@
+protoc -Ivendor -Iapi/proto/v1 --go_out=plugins=grpc:pkg/api/v1 hello-service.proto
